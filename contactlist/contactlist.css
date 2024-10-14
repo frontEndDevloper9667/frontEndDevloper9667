@@ -1,0 +1,317 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    position: relative;
+  
+}
+body
+{
+    background-color: rgb(222, 223, 225);
+}
+
+.container1
+{
+    left: 500px;
+    position: absolute;
+    width: 428px;
+    height: 700px;
+    
+    background-color: white;
+    
+}
+.nameListImg
+{
+    width: 41px;
+    height: 40px;
+   
+    border-radius: 100px;
+}
+.liName
+{
+    padding: 6px;
+    font-size: 24px;
+    left: 18px;
+}
+.nameBox2
+{
+
+    padding: 4px;
+    display: flex;
+    left: 70px;
+    height: 42px;
+    width: 350px;
+    
+    
+}
+.l1
+{
+    list-style-type: none;
+}
+.nameListBox
+{
+    width: 100%;
+    height: 510px;
+    box-shadow: 0px 2px 6px;
+    overflow-y: scroll;
+}
+.letters
+{
+    top: 40px;
+    font-size: 25px;
+    left: 25px;
+    color: rgb(135, 135, 135);
+}
+
+.search
+{
+    font-size: 20px;
+    width: 328px;
+    height: 40px;
+    border-radius: 35px;
+    left: 20px;
+    top: 46px;
+}
+.dot
+{
+    top: 65px;
+    left: 30px;
+    width: 45px;
+    height: 45px;
+}
+.addContact
+{
+    left: 340px;
+    top: 500px;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+}
+.switchSim2
+{
+    font-size: 25px;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-top: 5px solid rgb(222, 223, 225);
+    border-bottom: 5px solid rgb(222, 223, 225);
+}
+
+.container2
+{
+    visibility: hidden;
+    left: 500px;
+    position: absolute;
+    width: 428px;
+    height: 700px;
+    border: 1px solid black;
+    background-color: white;
+}
+.firstBtn1
+{
+    font-size: 40px;
+    top: 17px;
+    left: 50px;
+    width: 8px;
+    height: 23px;
+    background-color: white;
+    position: absolute;
+}
+.formh1
+{
+    top: 16px;
+    left: 100px;
+    font-size: 24px;
+}
+.save
+{
+    font-size: 24px;
+    
+    left: 320px;
+    bottom: 18px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    color: #5EF65A;
+}
+
+.imgBox
+{
+    background-color: #9DC180;
+width: 100%;
+height: 260px;
+}
+.image1
+{
+    width: 100%;
+    height: 259px;
+}
+.info-img
+{
+    width: 100%;
+    height: 259px;
+    
+}
+.img-input
+{
+    bottom: 260px;
+    display: none;
+}
+.icon
+{
+    z-index: 1;
+    left: 350px;
+    bottom: 260px;
+    width: 40px;
+    height: 35px;
+}
+.icon2
+{
+    
+    left: 50px;
+    bottom: 250px;
+    width: 250px;
+    height: 200px;
+    
+}
+.switchSim
+{
+    width: 366px;
+    height: 66px;
+    left: 30px;
+    bottom: 34px;
+    z-index: 1;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 3px 6px 6px rgb(135, 135, 135) ;
+}
+.infoBox1
+{
+    left: 31px;
+    bottom: 6px;
+    width: 366px;
+    height: 273px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px black;
+    font-size: 30px;
+}
+.first-Name
+{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid green;
+    top: 25px;
+    left: 90px;
+    width: 230px;
+    height: 24px;
+}
+.last-Name
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid green;
+    top: 25px;
+    left: 90px;
+    width: 230px;
+    height: 24px;
+}
+.phNumber
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid green;
+    top: 25px;
+    left: 90px;
+    width: 230px;
+    height: 24px;
+}
+.op1    
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid green;
+    top: 25px;
+    left: 90px;
+    width: 180px;
+    height: 24px;
+}
+.emailId   
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid green;
+    top: 25px;
+    left: 90px;
+    width: 230px;
+    height: 24px;
+}
+.op2   
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid green;
+    top: 25px;
+    left: 90px;
+    width: 180px;
+    height: 24px;
+}
+
+.container3
+{
+    visibility: hidden;
+    left: 500px;
+    position: absolute;
+    width: 428px;
+    height: 700px;
+    border: 1px solid black;
+    background-color: white;
+}
+.l2
+{
+    list-style-type: none;
+}
+.firstBtn2
+{
+    font-size: 40px;
+    top: 17px;
+    left: 50px;
+    width: 8px;
+    height: 23px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+
+}
+.contact-info
+{
+    left: 12px;
+    width: 85%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px rgb(199, 198, 198);
+    font-size: 25px;
+    padding: 20px;
+    line-height: 50px;
+    
+}
+.infoName
+{
+    padding: 15px;
+    font-size: 35px;
+    text-align: center;
+
+}
+.infoNumber
+{
+    top: 15px;
+    left: 70px;
+}
+.infoEmail
+{
+    top: 10px;
+    left: 70px;
+}
